@@ -1,0 +1,13 @@
+Query string get provided on the end of the url.
+We start up with quetion mark the we provide key value pair to pass additional information to the server.
+i.e syntax = ?key=value
+if you want to provide 2 or 3 or more quiry. we use && ampersend to seprerate them
+i.e syntax = ?key=value&&key=value
+
+app.get('/products',(req,res)=>{
+    res.send({
+        products:[]
+    })
+})
+
+information about query string lives in req (request).

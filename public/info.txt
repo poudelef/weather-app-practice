@@ -1,0 +1,4 @@
+as we add new feature or change code we can track those changes with version controll. 
+we can revert back to the our previous code using version controll.  
+
+Git doesn't track file by default. we have to add command. 
