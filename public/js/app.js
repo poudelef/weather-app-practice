@@ -1,4 +1,4 @@
-console.log('Client side data is loaded')
+
 
 
 const weatherForm = document.querySelector('form')
